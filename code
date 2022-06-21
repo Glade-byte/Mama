@@ -57,7 +57,14 @@ def run_mama():
        
   while True:
       run_mama()
+ 
+from androidhelper import Android
+droid = Android()
+response=input ("Enter phone number here:")
+droid.phoneCallNumber (response)
         
+   
+
         
         
         
